@@ -436,4 +436,15 @@ body {
      object-fit: cover;
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 25px;
+  padding: 2.5rem 2.5rem 0rem 0rem;
+  margin: 2.5rem auto;
+  max-width: 1440px;
+  background-color: #F7F7F7;
+}
+
 /* colors *//*# sourceMappingURL=main.css.map */
