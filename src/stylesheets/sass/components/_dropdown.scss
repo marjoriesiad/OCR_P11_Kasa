@@ -1,0 +1,46 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+    padding-bottom: 3.75rem;
+    margin: 1.5em auto 0;
+
+    &-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        height: 47px;
+        padding: 0 1.25rem;
+        border: none;
+        border-radius: 0.5em;
+        background: #FF6060;
+        font-size: 24px;
+        font-weight: 500;
+        color: #FFF;
+        margin: auto;
+    }
+
+    &-content{
+        position: relative;
+        z-index: -1;
+        width: 77%;
+        margin: -1em auto 1em;
+        padding: 2.5rem 1.25rem 1.25rem;
+        display: flex;
+        border-radius: 5px;
+        background: #F7F7F7;
+        color: #FF6060;
+        font-size: 24px;
+        font-weight: 400;
+        list-style: none;
+    }
+
+    .Fiabilité,.Respect,.Sécurité,.Service {
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+}

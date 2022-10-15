@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -436,6 +437,50 @@ body {
      object-fit: cover;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
+  padding-bottom: 3.75rem;
+  margin: 1.5em auto 0;
+}
+.about-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 47px;
+  padding: 0 1.25rem;
+  border: none;
+  border-radius: 0.5em;
+  background: #FF6060;
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFF;
+  margin: auto;
+}
+.about-content {
+  position: relative;
+  z-index: -1;
+  width: 77%;
+  margin: -1em auto 1em;
+  padding: 2.5rem 1.25rem 1.25rem;
+  display: flex;
+  border-radius: 5px;
+  background: #F7F7F7;
+  color: #FF6060;
+  font-size: 24px;
+  font-weight: 400;
+  list-style: none;
+}
+.about .Fiabilité, .about .Respect, .about .Sécurité, .about .Service {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -445,6 +490,17 @@ body {
   margin: 2.5rem auto;
   max-width: 1440px;
   background-color: #F7F7F7;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
+  padding-bottom: 3.75rem;
+  margin: 1.5em auto 0;
 }
 
 /* colors *//*# sourceMappingURL=main.css.map */
