@@ -336,4 +336,34 @@ template {
    */
 [hidden] {
   display: none;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: auto;
+  padding: 2.5rem 0;
+}
+.header__logo {
+  text-align: center;
+  width: 150px;
+}
+.header__navbar {
+  display: flex;
+}
+.header__navbar a {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #FF6060;
+  text-align: center;
+  text-decoration: none;
+}
+.header__navbar a.active h3 {
+  margin: 0 0 0 2.5rem;
+  border-bottom: #FF6060 solid 1px;
+  padding-bottom: 0;
+}
+
+/* colors *//*# sourceMappingURL=main.css.map */
