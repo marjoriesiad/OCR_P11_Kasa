@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
-import "./ratings.css";
 
 const Ratings = (star) => {
     const rate = parseInt(star.rate);
