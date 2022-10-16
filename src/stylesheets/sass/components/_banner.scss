@@ -8,6 +8,13 @@
     height: 200px;
     padding-bottom: 0.6rem;
 
+                    // mobile & tablet
+                    @media screen and (min-width: 200px) and (max-width: 767px) {
+                        width: 92%;
+                         
+                    }
+
+
     &__title{
         font-style: normal;
         font-weight: 500;
@@ -23,6 +30,10 @@
         justify-content: center;
         margin: 0;
 
+        // mobile & tablet
+         @media screen and (min-width: 200px) and (max-width: 767px) {
+         font-size: 30px;
+         }
     }
 
     &__image{
@@ -31,4 +42,6 @@
         border-radius: 25px;
         filter: brightness(0.7);
     }
+
+ 
 }

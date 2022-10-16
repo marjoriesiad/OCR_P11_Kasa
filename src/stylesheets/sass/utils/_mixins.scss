@@ -1,0 +1,12 @@
+
+@mixin phone-only{
+    @media (max-width: 425px){@content;}
+}
+
+@mixin tablet-only{
+    @media (max-width: 768px){@content;}
+}
+
+@mixin laptop-only{
+    @media (max-width: 1440px){@content;}
+}
