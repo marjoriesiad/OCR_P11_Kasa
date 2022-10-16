@@ -1,6 +1,10 @@
-@import "base/normalize";
 @import "base/fonts";
 @import "base/base";
+@import "base/normalize";
+
+@import "pages/home";
+@import "pages/_about";
+@import "pages/property";
 
 @import "components/header";
 @import "components/banner";
@@ -10,9 +14,6 @@
 @import "components/carrousel";
 @import "components/ratings";
 @import "components/footer";
-
-@import "pages/home";
-@import "pages/_about";
-@import "pages/property";
+@import "components/tags";
 
 @import "utils/mixins";

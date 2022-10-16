@@ -5,12 +5,18 @@
     margin: auto;
     max-width: 1440px;
 
+
+
+
     &__left{
         left: 70px;
         font-size: 48px;
         position: absolute;
         color: #fff;
         cursor: pointer;
+
+
+
     }
 
     &__right{
@@ -19,6 +25,11 @@
         position: absolute;
         color: #fff;
         cursor: pointer;
+
+     // mobile & tablet
+     @media screen and (max-width: 450px) {
+        right: -70px;
+        }
     }
 
     &__image{
@@ -28,6 +39,12 @@
         border-radius: 25px;
         display: block;
         margin: auto;
+
+                   // mobile & tablet
+                   @media screen and (max-width: 450px) {
+                    width: 500px;
+                    margin-left: 2rem;
+                    }
     }
 
     &__index{
@@ -36,5 +53,9 @@
         left: 50%;
         color:#fff;
         font-size: 18px;
+
+        @media screen and (max-width: 450px) {
+            display: none;
+            }
     }
 }

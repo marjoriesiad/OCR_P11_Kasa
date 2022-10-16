@@ -18,6 +18,8 @@ const About = () => {
                     ))}
                 </section>
             </main>
+
+            <Footer />
         </>
     )
 }

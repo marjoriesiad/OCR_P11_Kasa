@@ -8,6 +8,7 @@
     padding-bottom: 3.75rem;
     margin: 1.5em auto 0;
 
+
     &-title{
         display: flex;
         justify-content: space-between;
@@ -22,6 +23,12 @@
         font-weight: 500;
         color: #FFF;
         margin: auto;
+
+                        // mobile
+                        @media screen and (max-width: 450px) {
+                            width: 140%;
+                             
+                        }
     }
 
     &-content{
@@ -37,6 +44,12 @@
         font-size: 24px;
         font-weight: 400;
         list-style: none;
+
+                                // mobile
+                                @media screen and (max-width: 450px) {
+                                    width: 160%;
+                                     
+                                }
     }
 
     .Fiabilité,.Respect,.Sécurité,.Service {
@@ -55,6 +68,14 @@
     margin: 2rem auto;
     max-width: 1440px;
 
+                   // mobile & tablet
+                   @media screen and (max-width: 1439px) {
+                    flex-direction: column;
+                    padding-left: 2rem;
+                    
+                    }
+
+
     .property-title{
         display: flex;
         justify-content: space-between;
@@ -68,28 +89,42 @@
         font-size: 18px;
         font-weight: 500;
         color: #FFF;
+
+                   // mobile & tablet
+                   @media screen and (max-width: 450px) {
+                    width: 495px;
+                    
+                    }
+
     }
-}
 
-.property-content{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    z-index: -1;
-    padding: 2rem 1.25rem 1.25rem;
-    display: flex;
-    border-radius: 5px;
-    background: #F7F7F7;
-    color: #FF6060;
-    font-size: 18px;
-    font-weight: 400;
-    width: 540px;
 
-    & .property-list{
+    .property-content{
         display: flex;
         flex-direction: column;
+        position: relative;
+        z-index: -1;
+        padding: 2rem 1.25rem 1.25rem;
+        display: flex;
+        border-radius: 5px;
+        background: #F7F7F7;
+        color: #FF6060;
+        font-size: 18px;
+        font-weight: 400;
+        width: 580px;
+
+        @media screen and (max-width: 450px) {
+            width: 495px;
+            }
+    
+        & .property-list{
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
+
+
 
 .Description, .Equipement{
     margin-bottom: 1.5rem;

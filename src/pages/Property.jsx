@@ -57,7 +57,7 @@ const Property = () => {
 
                 <section className="dropdowns">
                 <Dropdown type="equipement" name="Description" content={[house?.description]} />
-                        <Dropdown type="equipement" name="Equipements" content={[house?.equipments]} />
+                <Dropdown type="equipement" name="Equipements" content={house['equipments']} />
                 </section>
                 </>
             )}

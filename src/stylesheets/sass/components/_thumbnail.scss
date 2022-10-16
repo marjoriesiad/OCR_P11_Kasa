@@ -5,11 +5,14 @@
     color: white;
     position: relative; 
 
-            // mobile & tablet
-            @media screen and (min-width: 200px) and (max-width: 798px) {
-                width: 90%;
-                height: 400px;
-                }
+
+
+ // mobile & tablet
+ @media screen and (max-width: 450px) {
+   width: 150%;
+   margin-right: -28%;
+   height: 400px;
+ }
 
     &__title{
         position: absolute;
@@ -27,7 +30,13 @@
             font-size: 18px;
             padding-bottom: 1rem;
             padding-left: 1rem; 
+
+            @media screen and (max-width: 450px) {
+                font-size: 25px;
+              }
         }
+
+
     }
 
     &__image{

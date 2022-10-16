@@ -1,7 +1,14 @@
 .footer{
     width: 100%;
     background-color: black;
-    position: relative;
+
+
+
+    @media screen and (max-width: 450px) {
+       width: 130%;
+       margin-top: 10.52rem;
+       height: 201px;
+        }
 
     &__image{
         width: 100%;

@@ -34,7 +34,7 @@ const Dropdown = ({id, name, content}) => {
                 </ul>
             )}
 
-            {open && typeof content == "string" && (
+            {open && typeof content === "string" && (
                 <p key={id} className="about-title">
                     {content}
                 </p>

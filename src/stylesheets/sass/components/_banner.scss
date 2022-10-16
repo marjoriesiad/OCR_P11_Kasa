@@ -9,8 +9,9 @@
     padding-bottom: 0.6rem;
 
                     // mobile & tablet
-                    @media screen and (min-width: 200px) and (max-width: 767px) {
-                        width: 92%;
+                    @media screen and (max-width: 450px) {
+                        width: 125%;
+                        margin-left: 1rem;
                          
                     }
 
@@ -30,10 +31,12 @@
         justify-content: center;
         margin: 0;
 
-        // mobile & tablet
-         @media screen and (min-width: 200px) and (max-width: 767px) {
-         font-size: 30px;
-         }
+                    // mobile & tablet
+                    @media screen and (max-width: 1440px) {
+                        font-size: 48px;
+                        padding-left: 1rem;
+                         
+                    }
     }
 
     &__image{
