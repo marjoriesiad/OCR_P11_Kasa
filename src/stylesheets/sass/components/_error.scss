@@ -5,18 +5,37 @@
     justify-content: center;
     color: #FF6060;
 
+
+
     & h1{
         font-size: 200px;
         margin-bottom: 20px;
+
+             // mobile & tablet
+     @media screen and (min-width: 200px) and (max-width: 798px) {
+        font-size: 150px;
+        }
     }
 
     & p{
         font-size: 36px;
+
+             // mobile & tablet
+     @media screen and (min-width: 200px) and (max-width: 798px) {
+        font-size: 28px;
+        text-align: center;
+        }
     }
 
     & a {
-        margin-top: 50px;
+        margin-top: 15rem;
         font-size: 28px;
         color: #FF6060;
+
+             // mobile & tablet
+     @media screen and (min-width: 200px) and (max-width: 798px) {
+        font-size: 20px;
+        margin-top: 6rem;
+        }
     }
 }
