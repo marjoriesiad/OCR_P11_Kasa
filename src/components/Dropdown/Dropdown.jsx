@@ -29,7 +29,7 @@ const Dropdown = ({id, name, content}) => {
             {open && Array.isArray(content) && (
                 <ul className="about-content property-content">
                     {content.map((item, id) => (
-                        <li key={id}>{item}</li>
+                        <li key={id} className="about-list property-list">{item}</li>
                     ))}
                 </ul>
             )}

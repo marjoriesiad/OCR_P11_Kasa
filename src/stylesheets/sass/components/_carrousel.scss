@@ -1,0 +1,40 @@
+.carrousel{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    max-width: 1440px;
+
+    &__left{
+        left: 70px;
+        font-size: 48px;
+        position: absolute;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    &__right{
+        right: 70px;
+        font-size: 48px;
+        position: absolute;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    &__image{
+        width: 1440px;
+        height: 415px;
+        object-fit: cover;
+        border-radius: 25px;
+        display: block;
+        margin: auto;
+    }
+
+    &__index{
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        color:#fff;
+        font-size: 18px;
+    }
+}

@@ -9,12 +9,12 @@ const Ratings = (star) => {
         <>
         {Array.from(Array(rate), (e, i) => {
             return(
-                <FontAwesomeIcon icon={faStar} className="star full" key={i} />
+                <FontAwesomeIcon icon={faStar} className="star star--full" key={i} />
             );
         })}
 
         {Array.from(Array(diff), (e, i) => {
-            return <FontAwesomeIcon icon={faStar} className="star empty" key={i} />
+            return <FontAwesomeIcon icon={faStar} className="star star--empty" key={i} />
         })}
         </>
     );
