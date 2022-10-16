@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    background-color: black;
+    position: relative;
+
+    &__image{
+        width: 100%;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+
+        & img{
+            width: 6rem;
+        }
+    }
+
+    &__copyright{
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        color: white;
+        padding-bottom: 2rem;
+    }
+}

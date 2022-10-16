@@ -639,6 +639,29 @@ template {
   color: #E3E3E3;
 }
 
+.footer {
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+.footer__image {
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.footer__image img {
+  width: 6rem;
+}
+.footer__copyright {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  padding-bottom: 2rem;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
