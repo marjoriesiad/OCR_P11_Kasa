@@ -361,11 +361,11 @@ template {
   max-width: 1440px;
   background-color: #F7F7F7;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 450px) {
   .gallery {
     background-color: #fff;
-    margin-left: 1rem;
-    padding: 1rem 0;
+    padding: 0.2rem 0;
+    margin: 1rem auto;
   }
 }
 
@@ -428,6 +428,7 @@ template {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    width: 92%;
   }
 }
 .property .host__infos {
@@ -439,8 +440,7 @@ template {
 @media screen and (max-width: 450px) {
   .property .host__infos {
     width: 80px;
-    margin-left: 16rem;
-    margin-right: -6rem;
+    margin-left: 8rem;
   }
 }
 .property .host__name {
@@ -449,10 +449,21 @@ template {
   text-align: flex-end;
   margin-right: 1rem;
 }
+@media screen and (max-width: 450px) {
+  .property .host__name {
+    font-size: 12px;
+  }
+}
 .property .host__image {
   width: 64px;
   height: 64px;
   border-radius: 3rem;
+}
+@media screen and (max-width: 450px) {
+  .property .host__image {
+    width: 54px;
+    height: 54px;
+  }
 }
 .property .host__rating {
   display: flex;
@@ -466,6 +477,7 @@ template {
   .property .host__rating {
     -moz-column-gap: 0;
          column-gap: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -483,11 +495,16 @@ template {
 @media screen and (max-width: 450px) {
   .header__logo {
     margin-left: 2rem;
-    margin-right: 7rem;
+    width: 100px;
   }
 }
 .header__navbar {
   display: flex;
+}
+@media screen and (max-width: 450px) {
+  .header__navbar {
+    margin-right: 1.8rem;
+  }
 }
 .header__navbar a {
   display: flex;
@@ -501,7 +518,7 @@ template {
 @media screen and (max-width: 450px) {
   .header__navbar a {
     font-size: 14px;
-    margin: 0 0 0 3rem;
+    margin: 0 0 0 1.5rem;
     text-transform: uppercase;
   }
 }
@@ -518,7 +535,7 @@ template {
 }
 @media screen and (max-width: 450px) {
   .banner {
-    width: 125%;
+    width: 92%;
     margin-left: 1rem;
   }
 }
@@ -537,9 +554,9 @@ template {
   justify-content: center;
   margin: 0;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 450px) {
   .banner__title {
-    font-size: 48px;
+    font-size: 40px;
     padding-left: 1rem;
   }
 }
@@ -559,8 +576,7 @@ template {
 }
 @media screen and (max-width: 450px) {
   .card {
-    width: 150%;
-    margin-right: -28%;
+    width: 92%;
     height: 400px;
   }
 }
@@ -583,7 +599,7 @@ template {
 }
 @media screen and (max-width: 450px) {
   .card__title h3 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 .card__image {
@@ -604,6 +620,11 @@ template {
   padding-bottom: 3.75rem;
   margin: 1.5em auto 0;
 }
+@media screen and (max-width: 450px) {
+  .about {
+    padding-left: 1rem;
+  }
+}
 .about-title {
   display: flex;
   justify-content: space-between;
@@ -621,7 +642,7 @@ template {
 }
 @media screen and (max-width: 450px) {
   .about-title {
-    width: 140%;
+    width: 110%;
   }
 }
 .about-content {
@@ -640,7 +661,8 @@ template {
 }
 @media screen and (max-width: 450px) {
   .about-content {
-    width: 160%;
+    width: 110%;
+    font-size: 20px;
   }
 }
 .about .Fiabilité, .about .Respect, .about .Sécurité, .about .Service {
@@ -655,10 +677,10 @@ template {
   margin: 2rem auto;
   max-width: 1440px;
 }
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 450px) {
   .dropdowns {
     flex-direction: column;
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
 }
 .dropdowns .property-title {
@@ -677,7 +699,7 @@ template {
 }
 @media screen and (max-width: 450px) {
   .dropdowns .property-title {
-    width: 495px;
+    width: 92%;
   }
 }
 .dropdowns .property-content {
@@ -696,7 +718,8 @@ template {
 }
 @media screen and (max-width: 450px) {
   .dropdowns .property-content {
-    width: 495px;
+    width: 92%;
+    font-size: 14px;
   }
 }
 .dropdowns .property-content .property-list {
@@ -704,9 +727,8 @@ template {
   flex-direction: column;
 }
 
-.Description, .Equipement {
+.Description, .Equipements {
   margin-bottom: 1.5rem;
-  width: 500px;
 }
 
 .error {
@@ -760,6 +782,11 @@ template {
   color: #fff;
   cursor: pointer;
 }
+@media screen and (max-width: 450px) {
+  .carrousel__left {
+    left: 40px;
+  }
+}
 .carrousel__right {
   right: 70px;
   font-size: 48px;
@@ -769,7 +796,7 @@ template {
 }
 @media screen and (max-width: 450px) {
   .carrousel__right {
-    right: -70px;
+    right: 40px;
   }
 }
 .carrousel__image {
@@ -783,8 +810,8 @@ template {
 }
 @media screen and (max-width: 450px) {
   .carrousel__image {
-    width: 500px;
-    margin-left: 2rem;
+    width: 92%;
+    margin-left: 1rem;
   }
 }
 .carrousel__index {
@@ -817,9 +844,7 @@ template {
 }
 @media screen and (max-width: 450px) {
   .footer {
-    width: 130%;
-    margin-top: 10.52rem;
-    height: 201px;
+    width: 100%;
   }
 }
 .footer__image {

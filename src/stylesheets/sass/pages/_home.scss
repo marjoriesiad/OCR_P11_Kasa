@@ -9,9 +9,9 @@
     background-color: #F7F7F7; 
 
                 // mobile & tablet
-                @media screen and (max-width: 1440px) {
+                @media screen and (max-width: 450px) {
                     background-color: #fff;
-                    margin-left: 1rem;
-                    padding: 1rem 0;
+                    padding: 0.2rem 0;
+                    margin: 1rem auto;
                     }
 }

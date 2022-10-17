@@ -14,13 +14,16 @@
                 // mobile
                 @media screen and (max-width: 450px) {
                     margin-left: 2rem;
-                    margin-right: 7rem;
+                    width: 100px;
                      
                 }
     } 
 
     &__navbar{
         display: flex;
+        @media screen and (max-width: 450px) {
+            margin-right: 1.8rem;        
+        }
 
         
 
@@ -36,7 +39,7 @@
         // mobile
     @media screen and (max-width: 450px) {
         font-size: 14px;
-        margin: 0 0 0 3rem;
+        margin: 0 0 0 1.5rem;
         text-transform: uppercase;         
     }
         }
