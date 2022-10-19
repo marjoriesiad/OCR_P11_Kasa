@@ -515,6 +515,12 @@ template {
   text-decoration: none;
   margin: 0 0 0 2.5rem;
 }
+.header__navbar a.active h3 {
+  padding-bottom: 0rem;
+  margin-bottom: 0rem;
+  border-bottom: 2px solid #FF6060;
+  margin-left: 2.5rem;
+}
 @media screen and (max-width: 450px) {
   .header__navbar a {
     font-size: 14px;

@@ -5,18 +5,13 @@
     margin: auto;
     padding: 2.5rem 0; 
 
-
-
     &__logo{
         text-align: center;
         width: 150px;
-
-                // mobile
-                @media screen and (max-width: 450px) {
-                    margin-left: 2rem;
-                    width: 100px;
-                     
-                }
+    @media screen and (max-width: 450px) {
+        margin-left: 2rem;
+        width: 100px;
+        }
     } 
 
     &__navbar{
@@ -24,8 +19,6 @@
         @media screen and (max-width: 450px) {
             margin-right: 1.8rem;        
         }
-
-        
 
         & a{
             display: flex;
@@ -36,6 +29,20 @@
             text-decoration: none;
             margin: 0 0 0 2.5rem;
 
+
+            &.active{
+                h3{
+                    padding-bottom: 0rem;
+                    margin-bottom: 0rem;
+                    border-bottom: 2px solid #FF6060;
+                    margin-left: 2.5rem;
+
+                }
+
+                }
+                
+        
+
         // mobile
     @media screen and (max-width: 450px) {
         font-size: 14px;
@@ -43,5 +50,6 @@
         text-transform: uppercase;         
     }
         }
+
     }
 }

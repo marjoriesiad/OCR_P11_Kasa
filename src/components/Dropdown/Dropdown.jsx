@@ -26,6 +26,7 @@ const Dropdown = ({id, name, content}) => {
                 </span>
             </button>
 
+            {/*Si c'est ouvert et qu'il contient un tableau, on map le tableau pour afficher une liste*/}
             {open && Array.isArray(content) && (
                 <ul className="about-content property-content">
                     {content.map((item, id) => (
@@ -34,6 +35,7 @@ const Dropdown = ({id, name, content}) => {
                 </ul>
             )}
 
+            {/*Si c'est ouvert et que le content est une string, on place le contenu dans un paragraphe */}
             {open && typeof content === "string" && (
                 <p key={id} className="about-title">
                     {content}
