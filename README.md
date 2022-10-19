@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `npm install`
 ### `npm install react-router dom`
 ### `npm i --save @fortawesome/fontawesome-svg-core`
 ### `npm install --save @fortawesome/free-solid-svg-icons`
