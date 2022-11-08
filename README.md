@@ -1,3 +1,11 @@
+<p align="center">
+<img src="https://forthebadge.com/images/badges/uses-html.svg">
+<img src="https://forthebadge.com/images/badges/uses-css.svg">
+<img src="https://forthebadge.com/images/badges/made-with-javascript.svg">
+<img src="https://forthebadge.com/images/badges/built-with-love.svg">
+</p>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
